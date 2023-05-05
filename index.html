@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+    <!-- ====== Favicon ====== -->
+    <link
+      rel="shortcut icon"
+      href="images/favicon-32x32.png"
+      type="image/png"
+    />
+    <!-- ====== Boxicons ====== -->
+    <link
+      href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- ====== Swiper CSS ====== -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <!-- ====== Custom CSS ====== -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Fashion Shop</title>
+  </head>
+  <body>
+    <!-- ====== Header ====== -->
+    <header class="header">
+      <!-- ====== Navigation ====== -->
+      <nav class="navbar">
+        <div class="row container d-flex">
+          <div class="logo">
+            <img src="./images/classiclogo.png" alt="" style="height: 70px; width: 70px;"/>
+          </div>
+
+          <div class="nav-list d-flex">
+            <a href="#Home">Home</a>
+            <a href="#Shop">Shop</a>
+            <a href="#Statistics">Statistics</a>
+            <a href="#About">About Us</a>
+            <a href="#Blog">Blogs</a>
+            <div class="close">
+              <i class="bx bx-x"></i>
+            </div>
+            <a class="user-link">Login</a>
+          </div>
+
+         
+
+          <!-- Hamburger -->
+          <div class="hamburger">
+            <i class="bx bx-menu-alt-right"></i>
+          </div>
+        </div>
+      </nav>
+
+      <!-- ====== Hero Area ====== -->
+      <div class="hero">
+        <div class="row container d-flex">
+          
+          <div class="col">
+            <span class="subtitle">Limited Time Only For Winter</span>
+            <h1 style="font-family: 'Cookie', cursive;">classic <span class="i">Designs</span> </h1>
+            <p>LOOK YOUR BEST ON YOUR BEST DAY</p>
+
+            <a href="#About"><button class="btn">Explore Now!</button></a>
+          </div>
+          <img src="./images/woman-in-cart.png" alt="" />
+        </div>
+      </div>
+    </header>
+    <!-- ====== Collection ====== -->
+    <section class="section collection" id="Collections">
+      <div class="title">
+        <span>COLLECTION</span>
+        <h2>Our Top Collection</h2>
+      </div>
+      <div class="filters d-flex">
+        <div data-filter="Men">Men</div>
+        <div data-filter="Women">Women</div>
+        <div data-filter="Kids">Kids</div>
+      </div>
+
+      <div class="products container">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper" id="products">
+            <div class="swiper-slide">
+              <div class="product">
+                <div class="top d-flex">
+                  <img src="./images/product-1.png" alt="" />
+                  <div class="icon d-flex">
+                    <i class="bx bxs-heart"></i>
+                  </div>
+                </div>
+                <div class="bottom">
+                  <h4>Nike Air Men’s Hoodie - Imported Hoodie Red</h4>
+                  <div class="d-flex">
+                    <div class="price">150</div>
+                    <div class="rating">
+                      <i class="bx bxs-star"></i>
+                      <i class="bx bxs-star"></i>
+                      <i class="bx bxs-star"></i>
+                      <i class="bx bxs-star"></i>
+                      <i class="bx bxs-star"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="pagination">
+          <div class="custom-pagination"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== New Arrival ====== -->
+    <section class="section new-arrival" id="About">
+      <div class="title">
+        <span>About Us</span>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime voluptatem deleniti quis molestiae corrupti, <br> corporis accusamus placeat ex. Impedit eaque minus, laudantium quaerat dicta totam maiores nisi? Eius, laboriosam harum.</p>
+      </div>
+
+      <div class="row container">
+        <div class="col col-1">
+          <img src="./images/poster-1.png" alt="" />
+          <h3>
+            2021 Trends <br />
+            Women’s Smart Skirt
+          </h3>
+        </div>
+        <div class="col col-2">
+          <img src="./images/poster-2.png" alt="" />
+          <h3>
+            2021 Trends <br />
+            Women’s Smart Skirt
+          </h3>
+        </div>
+        <div class="col col-3">
+          <img src="./images/poster-3.png" alt="" />
+          <h3>
+            2021 Trends <br />
+            Women’s Smart Shirt <br />
+            <span>Discover More:</span>
+          </h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== Categories ====== -->
+    <section class="section categories" id="Shop">
+      <div class="title">
+        <span>CATEGORIES</span>
+        <h2>2021 Latest Collection</h2>
+      </div>
+
+      <div class="products container">
+        <div class="product">
+          <div class="top d-flex">
+            <img src="./images/product-1.png" alt="" />
+            <div class="icon d-flex">
+              <i class="bx bxs-heart"></i>
+            </div>
+          </div>
+          <div class="bottom">
+            <div class="d-flex">
+              <h4>Nike Air Men’s Hoodie - Imported Hoodie Red</h4>
+              <a href="" class="btn cart-btn">Add to Cart</a>
+            </div>
+            <div class="d-flex">
+              <div class="price">$150</div>
+              <div class="rating">
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="button d-flex">
+        <a class="btn loadmore">Load More</a>
+      </div>
+    </section>
+
+    <!-- ====== Statistics ====== -->
+    <section class="section statistics" id="Statistics">
+      <div class="title">
+        <span>STATS</span>
+        <h2>Our Statistics</h2>
+      </div>
+
+      <div class="row container">
+        <div class="col">
+          <div class="icon">
+            <i class="bx bxs-check-square"></i>
+          </div>
+          <h3>Easy Order System</h3>
+          <p>Lorem Ispum is a placeholder text commomly used as a free text.</p>
+        </div>
+        <div class="col">
+          <div class="icon">
+            <i class="bx bxs-user"></i>
+          </div>
+          <h3>On Time Delievery</h3>
+          <p>Lorem Ispum is a placeholder text commomly used as a free text.</p>
+        </div>
+        <div class="col">
+          <div class="icon">
+            <i class="bx bxs-dollar-circle"></i>
+          </div>
+          <h3>Money Back Gaurantee</h3>
+          <p>Lorem Ispum is a placeholder text commomly used as a free text.</p>
+        </div>
+        <div class="col">
+          <div class="icon">
+            <i class="bx bxs-user"></i>
+          </div>
+          <h3>24/7 Customer Support</h3>
+          <p>Lorem Ispum is a placeholder text commomly used as a free text.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== Blogs ====== -->
+    <section class="section blog" id="Blog">
+      <div class="title">
+        <span>BLOGS</span>
+        <h2>Latest News</h2>
+      </div>
+
+      <div class="row container">
+        <div class="col">
+          <div class="top">
+            <img src="./images/blog-1.png" alt="" />
+          </div>
+          <div class="bottom">
+            <h3>Trendy</h3>
+            <h4>
+              Lorem Ispum is a placeholder text commomly used as a free text.
+            </h4>
+            <span>10 January 2021</span>
+          </div>
+        </div>
+        <div class="col">
+          <div class="top">
+            <img src="./images/blog-2.png" alt="" />
+          </div>
+          <div class="bottom">
+            <h3>Trendy</h3>
+            <h4>
+              Lorem Ispum is a placeholder text commomly used as a free text.
+            </h4>
+            <span>10 January 2021</span>
+          </div>
+        </div>
+        <div class="col">
+          <div class="top">
+            <img src="./images/blog-3.png" alt="" />
+          </div>
+          <div class="bottom">
+            <h3>Trendy</h3>
+            <h4>
+              Lorem Ispum is a placeholder text commomly used as a free text.
+            </h4>
+            <span>10 January 2021</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== Footer ====== -->
+    <footer class="footer">
+      <div class="row container">
+        <div class="col">
+          <div class="logo d-flex">
+            <img src="./images/cd2.png" alt="" style="height: 70px; width: 70px;"/>
+          </div>
+          <p>
+            Lorem ispum is a placeholder text <br />
+            commonly used as a free text.
+          </p>
+          <div class="icons d-flex">
+            <div class="icon d-flex">
+              <i class="bx bxl-facebook"></i>
+            </div>
+            <div class="icon d-flex"><i class="bx bxl-twitter"></i></div>
+            <div class="icon d-flex"><i class="bx bxl-instagram"></i></div>
+            <div class="icon d-flex"><i class="bx bxl-youtube"></i></div>
+          </div>
+          <p class="color">
+            Copyrights 2021 <br />
+            @Iamabdulqadeer01
+          </p>
+        </div>
+        <div class="col">
+          <div>
+            <!-- <h4>Product</h4>
+            <a href="">Download</a>
+            <a href="">Pricing</a>
+            <a href="">Locations</a>
+            <a href="">Server</a>
+            <a href="">Countries</a>
+            <a href="">Blog</a>
+          </div>
+          <div>
+            <h4>Category</h4>
+            <a href="">Men</a>
+            <a href="">Women</a>
+            <a href="">Kids</a>
+            <a href="">Best Seller</a>
+            <a href="">New Arrivals</a>
+          </div>
+          <div>
+            <h4>My Account</h4>
+            <a href="">My Account</a>
+            <a href="">Discount</a>
+            <a href="">Returns</a>
+            <a href="">Order History</a>
+            <a href="">Order Tracking</a>
+          </div> -->
+          <div>
+            <h4>Contact Us</h4>
+            <div class="d-flex">
+              <div class="icon"><i class="bx bxs-map"></i></div>
+              <span>123 Street Trafford, London, UK</span>
+            </div>
+            <div class="d-flex">
+              <div class="icon"><i class="bx bxs-envelope"></i></div>
+              <span>info@sitename.com</span>
+            </div>
+            <div class="d-flex">
+              <div class="icon"><i class="bx bxs-phone"></i></div>
+              <span>+456 789 789 001</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    
+    <!-- ====== SwiperJs ====== -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- ====== Custom Script ====== -->
+    <script src="./js/product.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
