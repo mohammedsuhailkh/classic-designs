@@ -127,7 +127,9 @@ async function loadData() {
           <div class="bottom">
             <div class="d-flex">
               <h4>${product.title}</h4>
-              <a href="" class="btn cart-btn">Add to Cart</a>
+              <a href="https://wa.me/8281391951?text=${product.url}" class="btn cart-btn">Add to Cart</a>
+              
+
             </div>
             <div class="d-flex">
               <div class="price">Rs ${product.price}</div>
